@@ -1,0 +1,70 @@
+.content-container {
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+}
+
+.star-sprite {
+    background-color: hsl(211, 20%, 21%);
+    padding: 1rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 1.25rem;
+    margin-top: 1.5rem;;
+}
+
+.text-container {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.main-heading {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.description {
+    color:hsl(217, 12%, 63%);
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.value-btn {
+    cursor: pointer;
+    background-color: hsl(211, 20%, 21%);
+    border: none;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: hsl(217, 12%, 63%);
+
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    height: 3rem;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.25rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
