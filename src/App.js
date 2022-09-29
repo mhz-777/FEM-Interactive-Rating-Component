@@ -1,10 +1,10 @@
-
+import Rating from './components/rating';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-        <h1>hello</h1>
+        <Rating />
     </div>
   );
 }
