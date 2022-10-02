@@ -5,6 +5,8 @@
     border-radius: 1.5rem;
     margin-left: 2.25rem;
     margin-right: 2.25rem;
+    padding-top: 1rem;
+    position: relative;
 }
 
 .star-sprite {
@@ -54,6 +56,16 @@
 
 }
 
+.value-btn:hover {
+    background-color: rgb(156, 150, 150);
+    color: white;
+}
+
+.value-btn:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
 .submit {
     background-color: hsl(25, 97%, 53%);
     margin-left: 1rem;
@@ -68,3 +80,30 @@
     margin-bottom: 2rem;
     cursor: pointer;
 }
+
+.submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+/* tablet screens */
+@media screen and (min-width: 810px) {
+    .content-container {
+        width: 50vw;
+    }
+}
+
+/* normal desktop sizes */
+@media screen and (min-width: 900px) {
+    .content-container {
+        width: 35vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .content-container {
+        width: 25vw;
+    }
+}
+
