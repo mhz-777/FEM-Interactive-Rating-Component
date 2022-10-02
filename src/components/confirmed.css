@@ -1,0 +1,34 @@
+.confirmed-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.dynamic-results {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(211, 20%, 21%);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    font-size: 15px;
+}
+
+.thanks-heading {
+    color: white;
+    font-size: 24px;
+}
+
+.thanks-message {
+    color: hsl(217, 12%, 63%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
