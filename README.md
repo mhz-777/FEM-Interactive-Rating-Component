@@ -1,8 +1,12 @@
 # Frontend Mentor Interactive Rating Component
 
+# Goal
+
+* Make this: https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI
+
 # Demo
 
-* Enjoy this link: 
+* Enjoy this link: https://chipper-salamander-bca63c.netlify.app/
 
 # Impressions
 
